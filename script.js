@@ -49,21 +49,21 @@ const menu = [
     {
         nombre: "Pizza Pepperoni",
         descripcion: "Masa artesanal crujiente, doble mozzarella y abundante pepperoni. Disponible en horario nocturno.",
-        precio: 65,
+        precio: 55,
         imagen: "img/pizza1.jpg",
         categoria: "Pizzas Noche"
     },
     {
         nombre: "Pizza Cuatro Quesos",
         descripcion: "Exquisita combinación de mozzarella, roquefort, parmesano y provolone.",
-        precio: 75,
+        precio: 55,
         imagen: "img/pizza2.jpg",
         categoria: "Pizzas Noche"
     },
     {
         nombre: "Calzone Rellenos",
         descripcion: "Deliciosos calzones rellenos de jamón, queso y champiñones, horneados a la perfección.",
-        precio: 25,
+        precio: 15,
         imagen: "img/calzone.jpg",
         categoria: "Calzones"
     },
