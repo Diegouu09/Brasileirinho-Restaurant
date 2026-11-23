@@ -1,14 +1,12 @@
 // ==========================================
 // CONFIGURACIÓN CENTRAL DEL RESTAURANTE
 // ==========================================
-// Bro, edita todo lo que necesites desde aquí sin tocar la estructura.
-
 const config = {
     nombre: "Brasileirinho Restaurant",
     eslogan: "El auténtico sabor de Brasil en tu mesa",
     descripcion: "Especialistas en brindar una experiencia única con nuestro exquisito buffet al mediodía y pizzas artesanales de alta calidad por la noche en Trinidad.",
     
-    // IMÁGENES (Asegúrate de tenerlas en tu carpeta /img)
+    // IMÁGENES
     logo: "img/logo.png",
     logoBlanco: "img/logo.png",
     imagenHero: "img/hero.jpg",
@@ -16,7 +14,7 @@ const config = {
 
     // CONTACTO & UBICACIÓN
     telefono: "67273322",
-    whatsapp: "591672733322", 
+    whatsapp: "59167273322", 
     direccion: "Avenida 6 de Agosto 55, Trinidad",
     horario: "Lunes a Domingos, de 11:30 AM - 2:30 PM y 5:00 PM - 11:00 PM",
     
