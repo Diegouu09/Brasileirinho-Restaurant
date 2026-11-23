@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brasileirinho Restaurant | Trinidad, Beni</title>
+    <meta name="description" content="Auténtico sabor brasileño en Trinidad. Buffet al mediodía y pizzas artesanales por la noche.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+    <div class="container nav-container">
+        <!-- Logo de vuelta en la esquina izquierda -->
+        <a href="#hero" class="logo-link">
+            <img id="nav-logo" src="img/logo.png" alt="Logo Brasileirinho">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+    <!-- HERO -->
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-badge">Trinidad, Beni • Bolivia</span>
+            <h1 id="hero-title">Brasileirinho Restaurant</h1>
+            <p id="hero-subtitle">El auténtico sabor de Brasil en tu mesa</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#reservas" class="btn btn-outline">Reservar Mesa</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="section">
+        <div class="container about-grid">
+            <div class="about-img-wrapper">
+                <img id="about-image" src="img/about.jpg" alt="Sobre nosotros">
+            </div>
+            <div class="about-text">
+                <span class="section-subtitle">Nuestra Esencia</span>
+                <h2 id="about-title">Tradición y Pasión</h2>
+                <p id="about-desc">Cargando información...</p>
+                <ul id="about-features" class="minimal-list"></ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENÚ -->
+    <section id="menu" class="section bg-soft">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Gastronomía</span>
+                <h2 class="section-title">Nuestro Menú</h2>
+            </div>
+            <div id="menu-filters" class="minimal-filters">
+                <!-- Filtros dinámicos por JS -->
+            </div>
+            <div id="menu-grid" class="menu-grid">
+                <!-- Platos inyectados por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVAS (Directo a WhatsApp como pediste) -->
+    <section id="reservas" class="section reservation-section">
+        <div class="container reservation-card">
+            <span class="section-subtitle">Reserva Rápida</span>
+            <h2>Aparta tu lugar al instante</h2>
+            <p>Evitemos formularios aburridos. Escríbenos directamente por WhatsApp y agendamos tu mesa en segundos.</p>
+            <a id="btn-wa-reserva" href="#" target="_blank" class="btn btn-whatsapp">
+                Reservar por WhatsApp ➔
+            </a>
+        </div>
+    </section>
+
+    <!-- RESEÑAS -->
+    <section id="resenas" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Reseñas</span>
+                <h2 class="section-title">Lo que dicen de nosotros</h2>
+            </div>
+            <div id="reviews-grid" class="reviews-grid">
+                <!-- Reseñas por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section bg-soft">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Visuales</span>
+                <h2 class="section-title">Galería</h2>
+            </div>
+            <div id="gallery-grid" class="gallery-grid">
+                <!-- Fotos por JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section id="ubicacion" class="section location-section">
+        <div class="container location-grid">
+            <div class="location-info">
+                <span class="section-subtitle">Encuéntranos</span>
+                <h2>Ubicación y Horarios</h2>
+                <p><strong>Dirección:</strong> <span id="loc-direccion"></span></p>
+                <p><strong>Horario:</strong> <span id="loc-horario"></span></p>
+                <p><strong>Teléfono:</strong> <span id="loc-telefono"></span></p>
+                <a id="btn-mapa" href="#" target="_blank" class="btn btn-primary-alt">Abrir en Google Maps</a>
+            </div>
+            <div class="location-map">
+                <iframe id="mapa-iframe" src="" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <img id="footer-logo" src="img/logo-white.png" alt="Logo">
+                <p>El mejor punto de encuentro en Trinidad, Beni.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p id="foot-dir"></p>
+                <p id="foot-tel"></p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="footer-socials">
+                    <a id="link-fb" href="#" target="_blank">Facebook</a>
+                    <a id="link-ig" href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Brasileirinho Restaurant. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- MODAL DE PRODUCTO -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modal-img" src="" alt="Plato">
+            <h3 id="modal-title"></h3>
+            <p id="modal-desc"></p>
+            <p id="modal-price" class="modal-price"></p>
+        </div>
+    </div>
+
+    <!-- MODAL DE IMAGEN -->
+    <div id="image-modal" class="modal">
+        <div class="modal-content gallery-modal">
+            <span class="close-img-modal">&times;</span>
+            <img id="modal-gallery-img" src="" alt="Galería">
+        </div>
+    </div>
+
+    <!-- BOTONES FLOTANTES -->
+    <a href="#" id="wa-float" class="fab wa-fab" target="_blank" title="Escríbenos por WhatsApp">WA</a>
+    <button id="up-float" class="fab up-float" title="Volver arriba">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
