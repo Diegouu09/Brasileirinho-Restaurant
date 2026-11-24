@@ -16,7 +16,7 @@ const config = {
     telefono: "67273322",
     whatsapp: "59167273322", 
     direccion: "Avenida 6 de Agosto 55, Trinidad",
-    horario: "Lunes a Domingos, de 11:30 AM - 2:30 PM y 5:00 PM - 11:00 PM",
+    horario: "Martes a Domingos, de 11:30 AM - 2:30 PM y 5:00 PM - 11:00 PM",
     
     // REDES SOCIALES
     instagram: "https://www.instagram.com/brasileirinhotdd",
@@ -47,24 +47,38 @@ const menu = [
         categoria: "Buffet Día"
     },
     {
-        nombre: "Pizza Pepperoni",
-        descripcion: "Masa artesanal crujiente, doble mozzarella y abundante pepperoni. Disponible en horario nocturno.",
-        precio: 55,
+        nombre: "Pizza Tradicional",
+        descripcion: "Masa artesanal crujiente; De Mozarella, Marguerita y Jamón.",
+        precio: 57,
         imagen: "img/pizza1.jpg",
         categoria: "Pizzas Noche"
     },
     {
-        nombre: "Pizza Cuatro Quesos",
-        descripcion: "Exquisita combinación de mozzarella, roquefort, parmesano y provolone.",
-        precio: 55,
+        nombre: "Pizza Especiales",
+        descripcion: "Pizzas especiales de: Hawaiana, Trinitaria y Calabresa",
+        precio: 69,
+        imagen: "img/pizza4.jpg",
+        categoria: "Pizzas Noche"
+    },
+     {
+        nombre: "Pizza Premium",
+        descripcion: "Exquisitos sabores como: Suprema, 4 Quesos, Sabor Brasil, Beniana.",
+        precio: 79,
         imagen: "img/pizza2.jpg",
         categoria: "Pizzas Noche"
     },
     {
-        nombre: "Calzone Rellenos",
-        descripcion: "Deliciosos calzones rellenos de jamón, queso y champiñones, horneados a la perfección.",
-        precio: 15,
+        nombre: "Calzones Rellenos",
+        descripcion: "Deliciosos calzones rellenos de jamón, margherita, hawaiano, champiñones y corn bacon.",
+        precio: 29,
         imagen: "img/calzone.jpg",
+        categoria: "Calzones"
+    },
+    {
+        nombre: "Calzones Especiales",
+        descripcion: "Deliciosos calzones con sabores como: Lomito con Cheddar, 4 quesos y Queso Catupiry",
+        precio: 29,
+        imagen: "img/calzone2.jpg",
         categoria: "Calzones"
     },
     {
