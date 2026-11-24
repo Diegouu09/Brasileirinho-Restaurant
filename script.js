@@ -77,7 +77,7 @@ const menu = [
     {
         nombre: "Calzones Especiales",
         descripcion: "Deliciosos calzones con sabores como: Lomito con Cheddar, 4 quesos y Queso Catupiry",
-        precio: 29,
+        precio: 35,
         imagen: "img/calzone2.jpg",
         categoria: "Calzones"
     },
